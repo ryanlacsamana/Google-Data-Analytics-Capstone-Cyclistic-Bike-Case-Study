@@ -31,12 +31,12 @@ The data is organized by the following:
 ### Process
 Each spreadsheet file contains 13 columns and varying number of rows. The combined number of rows is 5,779,444 (excluding headers) which is more than the maximum number of rows a spreadsheet can hold, which is 1,048,576. Therefore, I will be using <b>SQL</b> on <b>Google Cloud BigQuery</b> to combine and clean the data.
 
-#### [Data Combination](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Combining%20in%20SQL)
+#### [Data Combining](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Combining%20in%20SQL)
 1.	In BigQuery, created a dataset named “cyclistic_tripdata_202207_202306”
 2.	Uploaded the 12 CSV files as tables and named as YYYYMM_tripdata, where the table contains trip data from July 2022 to June 2023.
 3.	Combined 12 tables into one table “combined_tripdata”. The table contains 13 columns/fields and 5,779,444 rows, which matches the total rows from 12 spreadsheet files.
 
-#### Data Exploration
+#### [Data Preparation](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Preparation%20in%20SQL)
 Checked the data for duplicates, inconsistencies, and null values.
 1.	Upon checking the primary key, ride_id, for duplicates, the query returns 5,779,444 distinct rows, which is the same as the total number of rows. This means that there are no duplicate rows in the data.
 2.	Upon checking the number of characters for the primary key, ride_id, the query returns 16, which means that the number of characters for ride_id is consistent.
@@ -45,11 +45,34 @@ Checked the data for duplicates, inconsistencies, and null values.
 5.	The query to check for the number of bike types in the table returns three types of bikes, which is the correct number of bikes to be used for the analysis.
 6.	The query to check for the number of member types in the table returns two types, which is the correct number of member types.
 
-#### Data Cleaning
+#### [Data Cleaning](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Cleaning%20in%20SQL)
 1.	Created a new table named “cleaned_combined_tripdata”.
 2.	Created separate columns for day_of_week, month, and year from the data indicated in the started_at and ended_at columns.
 3.	Created a column named ride_length_mins, which is the difference between the date and time indicated in the ended_at and started_at columns, expressed in minutes.
 4.	Rows with null values are not included in the new table.
 5.	4,409,335 rows were returned; therefore, 1,370,109 rows were removed.
+
+### [Analysis](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Analysis%20in%20SQL)
+After cleaning the data, multiple tables were created to be used for analysis.
+1.	Created comparison tables for number of trips of each member type:</br>
+
+    a.	Number of trips for each bike type</br>
+    b.	Number of trips per month</br>
+    c.	Number of trips per day of week</br>
+    d.	Number of trips per hour of day</br>
+    
+2.	Created comparison tables for the average ride length of each member type:</br>
+
+    a.	Average ride length per month</br>
+    b.	Average ride length per day of week</br>
+    c.	Average ride length per hour of day</br>
+    
+3.	Created tables for start and end docking location for each member type.
+
+### Insights
+Created visualizations from the results of data analysis using Tableau.
+
+1.	Comparison between bike type preference per member type
+   ![image](
 
 
