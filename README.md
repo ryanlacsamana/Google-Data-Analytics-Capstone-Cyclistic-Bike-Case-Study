@@ -72,7 +72,66 @@ After cleaning the data, multiple tables were created to be used for analysis.
 ### Insights
 Created visualizations from the results of data analysis using Tableau.
 
-1.	Comparison between bike type preference per member type
-   ![image](
+#### 1.	Comparison between bike type preference per member type
+   
+![Bike Types](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/c335cdfd-a1b4-412d-b514-14a4f127b5b9)
+
+As shown above, riders prefer using classic bikes over the other bike types, which makes up 56.52% of the total rides. Annual members prefer both classic bikes and electric bikes with more than double the number of trips used by casual riders for classic bikes, and with a small margin for the electric bikes.
+
+#### 2.	Comparison of monthly trips
+   
+![Bike Trips per Month](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/666d9da1-bb98-460a-9ab9-5bbb348edac6)
+
+The chart above shows the number of bike trips and the average ride length per month. 
+
+As shown above, most bike trips occur on the month of July for casual riders and August for annual members. The highest average ride length also occurred on the month of July for both annual members and casual riders. 
+
+The number of bike trips and average ride length were also significantly higher on the months of June, July, and August, and started to decline from September and at its lowest on the months of December and January. This could indicate that weather is a factor for the number of trips and average ride length, as it is likely that riders spend much time riding on summer than winter months.
+
+#### 3.	Comparison of daily trips
+
+![Bike Trips per Day of Week](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/e072d33d-04e3-407c-8340-648e5098bf14)
+
+From the graphs showing the number of trips per day, shows an inverse correlation between annual members and casual riders during weekdays. However, for the average ride length per day, the graph shows a correlation between both member types.
+
+For annual members, the number of trips is higher during weekdays, and the average ride length is almost the same from Monday to Friday. This could indicate that annual members likely use the bikes for work.
+
+For casual riders, both the number of trips and the average ride length is higher during weekends. The average ride length is also longer than what is recorded for the annual members. This could indicate that casual riders oftenly use the bikes for leisure.
+
+#### 4.	Comparison of hourly trips
+
+![Bike Trips per Hour](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/bbd4d4eb-e2c5-4135-a947-f0c40547f96f)
+
+The graphs above further support the findings on the comparison of daily trips. A significantly higher number of trips was found during 8 AM and 5 PM, which is the usual time for the start and end of work shift. A line with almost no significant changes was also found in the average ride length per hour graph which could indicate that the bikes used by annual member travels at an almost constant distance, which could be the distance between the docking station to their work.
+
+For the casual riders, the number of trips and the average ride length both starting to increase at around 7 AM to 2 PM, which is the usual time of day that is spent for leisure.
+
+#### 5.	Comparison for start and end docking stations
+
+![Total Trips at Starting Locations](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/f1746231-1471-469b-bf0c-894c3a0e19db)
+
+![Total Trips at End Locations](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/5f11f5a8-48f6-4e45-83e3-0cb5d5c9fd2a)
+
+Shown above are the plotted locations of the top 100 frequent locations for start and end docking for each member type.
+
+As shown in the maps, annual members typically start and end their locations inland, where there are establishments such as schools, restaurants, and other business establishments. It was also noticed that the start and end locations have quite a small distance.
+
+For casual riders, the start and end locations are typically found near parks and lakes. The distance between the start and end locations are somewhat noticeable, indicating that casual riders tend to spend more time with bicycles travelling longer distances.
+
+#### Summary of Insights
+
+Annual Members    | Casual Riders
+------------------|------------------
+Typically use bikes for commuting | Typically use bikes for leisure
+Prefers using classic bikes             | With small difference in preference between classic bikes and electric bikes
+Rides bikes for a shorter duration | Rides bikes for a longer duration
+
+#### Recommendations
+
+1.	Flexible membership plan could be implemented to target casual riders. The membership plan includes discounts or promos during spring and summer seasons and/or weekend rides.
+2.	Another membership plan to include discounts and promos for longer rides, to attract casual riders who frequently drive a longer distance.
+3.	Advertising campaigns should be held on parks, piers, and other leisure locations during spring and summer seasons.
+
+
 
 
