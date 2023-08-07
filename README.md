@@ -1,1 +1,1 @@
-# Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study
+# Google Data Analytics Capstone: Cyclistic Bike Case Study
