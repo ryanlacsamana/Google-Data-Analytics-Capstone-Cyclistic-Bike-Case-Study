@@ -11,8 +11,20 @@ For this case study, I am assuming the position of a Junior Data Analyst at Cycl
 ### Ask
 The business task is to provide a new marketing strategy aimed to convert casual riders into annual members.
 The following questions will guide the future marketing program:
-    1.	How do annual members and casual riders use Cyclistic bikes differently?
-    2.	Why would casual riders buy Cyclistic annual memberships?
-    3.	How can Cyclistic use digital media to influence casual riders to become members?
+
+1.	How do annual members and casual riders use Cyclistic bikes differently?
+2.	Why would casual riders buy Cyclistic annual memberships?
+3.	How can Cyclistic use digital media to influence casual riders to become members?
+    
 To help them devise a new marketing strategy, the director of marketing assigned me to answer the first question, <b>“How do annual members and casual riders use Cyclistic bikes differently?”</b>
+
+### Prepare
+As a preparation for the analysis, I downloaded the historical bike trip data which includes data from the previous 12 months. The data is downloaded at [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) and includes data from July 2022 to June 2023, which is the most recent data. The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement). The data is also provided in the official website of Divvy Bikes.
+The data is organized by the following:
+    
+1.	The downloaded data are stored in a ZIP folder which includes a CSV file of the bike trip data. 
+2.	To store the data, a new folder is created to store the CSV file of 12 bike trip data. 
+3.	The filename uses a clear and standard file naming convention of YYYYMM-divvy-tripdata.
+4.	Upon checking the columns in each spreadsheet, no personal information are included.
+5.	Per the [Divvy Bikes](https://divvybikes.com/system-data) website, trips taken by staff for service and inspection, and trips below 60 seconds in length are not included in the data.
 
