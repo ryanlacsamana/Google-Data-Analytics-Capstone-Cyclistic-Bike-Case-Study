@@ -36,7 +36,7 @@ Each spreadsheet file contains 13 columns and varying number of rows. The combin
 2.	Uploaded the 12 CSV files as tables and named as YYYYMM_tripdata, where the table contains trip data from July 2022 to June 2023.
 3.	Combined 12 tables into one table “combined_tripdata”. The table contains 13 columns/fields and 5,779,444 rows, which matches the total rows from 12 spreadsheet files.
 
-![Screenshot 2023-08-08 134813](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/c5327983-72c8-4b1f-97d7-241d9e98d48f)
+![Screenshot 2023-08-08 135150](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/1e3f256f-922f-49dd-ad12-e303201ebc0c)
 
 #### [Data Preparation](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Preparation%20in%20SQL)
 Checked the data for duplicates, inconsistencies, and null values.
@@ -47,12 +47,16 @@ Checked the data for duplicates, inconsistencies, and null values.
 5.	The query to check for the number of bike types in the table returns three types of bikes, which is the correct number of bikes to be used for the analysis.
 6.	The query to check for the number of member types in the table returns two types, which is the correct number of member types.
 
+![Screenshot 2023-08-08 134813](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/c5327983-72c8-4b1f-97d7-241d9e98d48f)
+
 #### [Data Cleaning](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Cleaning%20in%20SQL)
 1.	Created a new table named “cleaned_combined_tripdata”.
 2.	Created separate columns for day_of_week, month, and year from the data indicated in the started_at and ended_at columns.
 3.	Created a column named ride_length_mins, which is the difference between the date and time indicated in the ended_at and started_at columns, expressed in minutes.
 4.	Rows with null values are not included in the new table.
 5.	4,409,335 rows were returned; therefore, 1,370,109 rows were removed.
+
+![Screenshot 2023-08-08 135720](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/d29e79c1-6dfa-475a-877d-b9ca482bd28a)
 
 ### [Analysis](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Analysis%20in%20SQL)
 After cleaning the data, multiple tables were created to be used for analysis.
