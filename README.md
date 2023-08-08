@@ -42,6 +42,9 @@ Each spreadsheet file contains 13 columns and varying number of rows. The combin
 
 #### [Data Preparation](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Preparation%20in%20SQL)
 Checked the data for duplicates, inconsistencies, and null values.
+
+![Screenshot 2023-08-08 140015](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/f237b145-7f2c-46ba-9b7c-542776893410)
+
 1.	Upon checking the primary key, ride_id, for duplicates, the query returns 5,779,444 distinct rows, which is the same as the total number of rows. This means that there are no duplicate rows in the data.
 2.	Upon checking the number of characters for the primary key, ride_id, the query returns 16, which means that the number of characters for ride_id is consistent.
 3.	Upon checking for null values, the query returns 857,860, 857,992, 915,655, and 915,796 null values for start_station_name, start_station_id, end_station_name, and end_station_id, respectively. However, the values for start_station_id and end_station_id will not influence the analysis, they will be ignored.
@@ -51,8 +54,6 @@ Checked the data for duplicates, inconsistencies, and null values.
 
 5.	The query to check for the number of bike types in the table returns three types of bikes, which is the correct number of bikes to be used for the analysis.
 6.	The query to check for the number of member types in the table returns two types, which is the correct number of member types.
-
-![Screenshot 2023-08-08 140015](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/f237b145-7f2c-46ba-9b7c-542776893410)
 
 #### [Data Cleaning](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Cleaning%20in%20SQL)
 1.	Created a new table named “cleaned_combined_tripdata”.
