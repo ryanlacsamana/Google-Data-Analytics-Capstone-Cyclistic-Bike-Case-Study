@@ -38,16 +38,21 @@ Each spreadsheet file contains 13 columns and varying number of rows. The combin
 
 ![Screenshot 2023-08-08 135150](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/1e3f256f-922f-49dd-ad12-e303201ebc0c)
 
+![Screenshot 2023-08-08 134813](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/c5327983-72c8-4b1f-97d7-241d9e98d48f)
+
 #### [Data Preparation](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Preparation%20in%20SQL)
 Checked the data for duplicates, inconsistencies, and null values.
 1.	Upon checking the primary key, ride_id, for duplicates, the query returns 5,779,444 distinct rows, which is the same as the total number of rows. This means that there are no duplicate rows in the data.
 2.	Upon checking the number of characters for the primary key, ride_id, the query returns 16, which means that the number of characters for ride_id is consistent.
 3.	Upon checking for null values, the query returns 857,860, 857,992, 915,655, and 915,796 null values for start_station_name, start_station_id, end_station_name, and end_station_id, respectively. However, the values for start_station_id and end_station_id will not influence the analysis, they will be ignored.
 4.	The query also returns 5,795 null values for both end_lat and end_lng, these can not be plotted on a chart and will be removed.
+
+![Screenshot 2023-08-08 140317](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/e9633e18-911f-40b7-bee3-a0b82a4eda9e)
+
 5.	The query to check for the number of bike types in the table returns three types of bikes, which is the correct number of bikes to be used for the analysis.
 6.	The query to check for the number of member types in the table returns two types, which is the correct number of member types.
 
-![Screenshot 2023-08-08 134813](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/c5327983-72c8-4b1f-97d7-241d9e98d48f)
+![Screenshot 2023-08-08 140015](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/f237b145-7f2c-46ba-9b7c-542776893410)
 
 #### [Data Cleaning](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Cleaning%20in%20SQL)
 1.	Created a new table named “cleaned_combined_tripdata”.
@@ -66,14 +71,20 @@ After cleaning the data, multiple tables were created to be used for analysis.
     b.	Number of trips per month</br>
     c.	Number of trips per day of week</br>
     d.	Number of trips per hour of day</br>
-    
+
+  	![Screenshot 2023-08-08 140612](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/acdb2bbb-9928-48ce-8766-32636af58ad1)
+
 2.	Created comparison tables for the average ride length of each member type:</br>
 
     a.	Average ride length per month</br>
     b.	Average ride length per day of week</br>
     c.	Average ride length per hour of day</br>
-    
+
+  	 ![Screenshot 2023-08-08 141239](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/e471b248-e5af-4956-b305-f3e2e9e26809)
+
 3.	Created tables for start and end docking location for each member type.
+
+    ![Screenshot 2023-08-08 141408](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/e582ba2c-6385-427f-bc6b-0345f565c106)
 
 ### Insights
 Created visualizations from the results of data analysis using Tableau.
