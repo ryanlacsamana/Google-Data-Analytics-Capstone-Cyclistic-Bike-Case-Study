@@ -64,7 +64,7 @@ Checked the data for duplicates, inconsistencies, and null values.
 
 ![Screenshot 2023-08-08 135720](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/d29e79c1-6dfa-475a-877d-b9ca482bd28a)
 
-### [Analysis](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Analysis%20in%20SQL)
+### [Analysis](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/data_analysis.sql)
 After cleaning the data, multiple tables were created to be used for analysis.
 1.	Created comparison tables for number of trips of each member type:</br>
 
