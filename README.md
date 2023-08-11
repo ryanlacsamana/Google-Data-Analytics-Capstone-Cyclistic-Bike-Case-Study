@@ -40,7 +40,7 @@ Each spreadsheet file contains 13 columns and varying number of rows. The combin
 
 ![Screenshot 2023-08-08 134813](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/c5327983-72c8-4b1f-97d7-241d9e98d48f)
 
-#### [Data Preparation](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Preparation%20in%20SQL)
+#### [Data Preparation](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/data_preparation.sql)
 Checked the data for duplicates, inconsistencies, and null values.
 
 ![Screenshot 2023-08-08 140015](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/assets/138304188/f237b145-7f2c-46ba-9b7c-542776893410)
