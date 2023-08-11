@@ -31,7 +31,7 @@ The data is organized by the following:
 ### Process
 Each spreadsheet file contains 13 columns and varying number of rows. The combined number of rows is 5,779,444 (excluding headers) which is more than the maximum number of rows a spreadsheet can hold, which is 1,048,576. Therefore, I will be using <b>SQL</b> on <b>Google Cloud BigQuery</b> to combine and clean the data.
 
-#### [Data Combining](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Combining%20in%20SQL)
+#### [Data Combining](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/data_combining.sql)
 1.	In BigQuery, created a dataset named “cyclistic_tripdata_202207_202306”
 2.	Uploaded the 12 CSV files as tables and named as YYYYMM_tripdata, where the table contains trip data from July 2022 to June 2023.
 3.	Combined 12 tables into one table “combined_tripdata”. The table contains 13 columns/fields and 5,779,444 rows, which matches the total rows from 12 spreadsheet files.
