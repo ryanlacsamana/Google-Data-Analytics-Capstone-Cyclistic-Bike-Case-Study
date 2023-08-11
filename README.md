@@ -55,7 +55,7 @@ Checked the data for duplicates, inconsistencies, and null values.
 5.	The query to check for the number of bike types in the table returns three types of bikes, which is the correct number of bikes to be used for the analysis.
 6.	The query to check for the number of member types in the table returns two types, which is the correct number of member types.
 
-#### [Data Cleaning](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/Data%20Cleaning%20in%20SQL)
+#### [Data Cleaning](https://github.com/ryanlacsamana/Google-Data-Analytics-Capstone-Cyclistic-Bike-Case-Study/blob/main/data_cleaning.sql)
 1.	Created a new table named “cleaned_combined_tripdata”.
 2.	Created separate columns for day_of_week, month, and year from the data indicated in the started_at and ended_at columns.
 3.	Created a column named ride_length_mins, which is the difference between the date and time indicated in the ended_at and started_at columns, expressed in minutes.
